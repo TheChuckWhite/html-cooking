@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+
 body{
 	background: url(../img/background.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -9,19 +11,25 @@ header{
 	background: #F5DEB3;
 	float: right;
 	margin-top: 20px;
-	font-family: 'Pacifico', cursive;
+    font-family: 'Contrail One', cursive;
 	color: #8B4513;
 	text-align: center;
-	font-size: 40px;
 }
 
-header > img{
+header > div{
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+header > div >  img{
 	height:100px;
-	vertical-align: middle;
+	float: left;
 }
 
-header > span{
-	margin-top: 10px;
+header > div > span{
+line-height: 100px;
+font-size: 30px;
 }
 
 div.wrapper{
@@ -47,7 +55,7 @@ article{
 }
 
 h1{
-	font-family: 'Pacifico', cursive;
+    font-family: 'Contrail One', cursive;
 	font-size: 30px;
 	color: #8B4513;
 }
@@ -62,7 +70,7 @@ aside{
 }
 
 aside > ul{
-	font-family: 'Pacifico', cursive;
+    font-family: 'Contrail One', cursive;
 	font-size: 25px;
 	color: #8B4513;
 }
