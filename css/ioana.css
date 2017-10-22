@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+
+body{
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Contrail One';
+}
+
+header{
+	width: 665px;
+	height: 100px;
+	background: #F5DEB3;
+	float: right;
+	margin-top: 20px;
+    font-family: 'Contrail One', cursive;
+	color: #8B4513;
+	text-align: center;
+	position: fixed;
+	margin-left: 295px;
+}
+
+header > div{
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	
+}
+
+header > div >  img{
+	height:100px;
+	float: left;
+	
+}
+
+header > div > span{
+line-height: 100px;
+font-size: 30px;
+
+}
+
+div.wrapper{
+	width: 1000px;
+	padding: 0px 20px;
+	padding-bottom: 20px;
+	margin: 0px auto;
+	background: rgba(255,255,255,0.5);
+	overflow: auto;
+}
+
+div#content{
+	width: 665px;
+	float: right;
+	min-height: 750px;
+}
+
+article{
+	min-height: 600px;
+	background-color: #FFF;
+	margin-top:40px;
+	
+}
+
+h1{
+    font-family: 'Contrail One', cursive;
+	font-size: 30px;
+	color: #8B4513;
+}
+
+aside{
+	width: 275px;
+	margin-top:20px;
+	background-color: #FFF;
+	float: left;
+	position: fixed;
+	padding: 20px;
+}
+
+aside > ul{
+    font-family: 'Contrail One', cursive;
+	font-size: 25px;
+	color: #8B4513;
+}
+
+aside > ul > li{
+	width:100%;
+	padding:10px;
+}
+
+aside > ul > li > a{
+	width:100%;
+	height: 100%;
+	text-decoration: none;
+	color: inherit;
+}
+
+aside > ul > li:hover{
+	background-color: #F5DEB3;
+	color: #8B4513;
+}
+.img_img
+{
+	float: left;
+	margin-left: -20px;
+	margin-top: 60px;
+}
+#directions
+{
+	text-align: center;
+	font-size: 32px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #F5DEB3;
+	float: left;
+	margin-left: -20px;
+	width: 665px;
+	height: 80px;
+}
+.img__description {
+  position: absolute;
+  margin-top: 60px;
+  background: rgba(254,251,247, 0.72);
+  color: #8B4513;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s, visibility .5s;
+  font-size: 32px;
+  width: 685px;
+  height: 420px;
+  margin-left: -20px;
+  text-align: center; 
+  padding-top: 200px;
+  padding-bottom: 210px;
+  font-family: 'Contrail One', cursive;
+
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+#firstArticle
+{
+	background-color: #F5DEB3;
+}
+a
+{
+	text-decoration: none;
+	color: #8B4513;
+	font-family: 'Contrail One';
+}
+#box
+{
+	float: left;
+	margin-left: -20px;
+	width: 665px;
+	height: 80px;
+	background-color: #F5DEB3;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+#box1
+{
+	float: left;
+	height: 80px;
+	width: 221px;
+	background-color: #F5DEB3;
+}
+#box2
+{
+	float: left;
+	height: 80px;
+	width: 221px;
+	background-color: #F5DEB3;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}#box3
+{
+	float: left;
+	height: 80px;
+	width: 221px;
+	background-color: #F5DEB3;
+}
+.inside
+{
+	font-size: 32px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 15px;
+}
+p
+{
+	text-align: center;
+	color: #8B4513;
+	font-size: 24px;
+}
+#ingredients
+{
+	padding-left: 30px;
+	margin-top: 40px;
+	font-size: 20px;
+}
+ol
+{
+	list-style-type: circle;
+	margin: 8px;
+}
+.direction
+{
+	text-align: left;
+	margin: 25px;
+	color: black;
+	font-size: 18px;
+}
+.boxDirections
+{
+	margin-top: -20px;
+	font-size: 26px;
+	text-align: center;
+	width: 665px;
+	height: 80px;
+	background-color: #F5DEB3;
+	margin-left: -20px;
+	font-size: 32px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	color: #8B4513;
+
+}
+#circles
+{
+	margin-top: 70px;
+	font-size: 26px;
+	text-align: center;
+	width: 665px;
+	height: 110px;
+	margin-left: -20px;
+	font-size: 32px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.circle
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	float: left;
+	margin-left: 9px;
+}
+.details
+{
+	width: 60px;
+	height: 80px;
+	font-size: 20px;
+	text-align: center;
+	margin: 20px;
+	font-style: justify;
+	margin-top: 30px;
+	float: left;
+}
+label 
+{
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 90px;
+}
+textarea 
+{
+	width:439px;
+	height:50px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+input
+{
+	margin-top: 20px;
+	height: 40px;
+	padding: 10px;
+	font-size: 24px;
+	color: #3a3a3a;
+	float: right;
+	margin-right: 90px;
+}
+#comment
+{
+	height: 100px;
+}
+#photos
+{
+	margin-top: 30px;
+	float: left;
+	width: 600px;
+	height: 420px;
+}
+.photo
+{
+	width: 180px;
+	margin-left: 20px;
+	background-color: #F5DEB3;
+	height: 170px;
+	margin-bottom: 30px;
+	float: left;
+}
+.hovering {
+  position: absolute;
+  background: rgba(254,251,247, 0.72);
+  color: #8B4513;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s, visibility .5s;
+  font-size: 20px;
+  width: 180px;
+  height: 60px;
+  margin-top: 110px;
+  padding-top: 7px;
+  text-align: center; 
+  font-family: 'Contrail One', cursive;
+
+}
+
+.photo:hover .hovering {
+  visibility: visible;
+  opacity: 1;
+}
+.reteta
+{
+	float: left;
+}
+#down
+{
+	width: 665px;
+	float: left;
+	height: 40px;
+	background-color: #F5DEB3;
+	margin-left: -20px;
+}

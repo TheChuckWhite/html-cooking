@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HTML Cooking</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/ioana.css">
+
+
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div>
+				<img src="img/favicon.png" alt="logo">
+				<span>HTML Cooking</span>
+			</div>
+		</header>
+		<div id="content">
+			<article id="firstArticle">
+				<div class="img__wrap">
+					<img src="img/Papanasi.jpg" width="665" height="440" class="img_img">
+					<a href="#target"><div id="directions"><b> View directions </b></a></div>
+					<p class="img__description">Do you want to learn to make the best traditional dessert in Romania?</p>
+				</div>
+			</article>
+			<article>
+					<div id="box">
+						<div id="box1">
+							<div class="inside">7 Ingredients</div>
+						</div>
+						<div id="box2">
+							<div class="inside">235 Calories</div>
+						</div>
+						<div id="box3">
+							<div class="inside">60 Minutes</div>
+						</div>
+					</div>
+				<p> This is a traditional Romanian recipe. Very simple to make but delicious. It is served with “dulceata” a very sweet preserve and sour cream. The most traditional is served with sour cherry preserve or blueberry preserve.
+				</p>
+				<div id="ingredients">
+					<p><font size="26px">Ingredients:</font size></p>
+					<br>
+					<ol>
+						<li>500 g fresh cottage cheese or ricotta</li>
+						<li>2 eggs</li>
+						<li>100 g semolina</li>
+						<li>150 g flour</li>
+						<li>2 tablespoons sugar</li>
+						<li>1/2 teaspoon baking powder</li>
+						<li>1 teaspoon vanilla extract</li>
+					</ol>
+				</div>
+				<a name="target">
+					<div id="circles">
+							<div class="circle" style="background-image: linear-gradient(to top,rgb(179,202,245) 60%,rgb(245,222,179) 40%);">
+									<div class="details">
+										235 CALORIES
+									</div>
+							</div>
+							<div class="circle" style="background-image: linear-gradient(to bottom,rgb(245,222,179) 72%,rgb(179,202,245) 28%);">
+									<div class="details">
+										FAT 17,2g
+									</div>
+							</div>
+							<div class="circle" style="background-image: linear-gradient(to bottom,rgb(245,222,179) 96%,rgb(179,202,245) 4%);">
+									<div class="details">
+										CARBS 10g
+									</div>
+							</div>
+							<div class="circle" style="background-image: linear-gradient(to bottom,rgb(245,222,179) 89%,rgb(179,202,245) 11%);">
+									<div class="details">
+										PROTEINS 10g
+									</div>
+							</div>
+							<div class="circle" style="background-image: linear-gradient(to bottom,rgb(245,222,179) 100%,rgb(179,202,245) 0%);">
+									<div class="details">
+										SODIUM 0%
+									</div>
+							</div>
+							<div class="circle" style="background-image: linear-gradient(to bottom,rgb(245,222,179) 100%,rgb(179,202,245) 0%);">
+									<div class="details">
+										FIBRES 0g
+									</div>
+							</div>
+					</div>
+				</a>
+			</article>
+			<article>
+				
+					<div class="boxDirections"> Directions:</div>
+						<p class="direction">1. Mix the cottage cheese with the sugar and the baking powder. After that add the eggs and the vanilla extract and at the end the flour and semolina. You can mix it with a mixer for better homogeneity.
+						</p>
+						<p class="direction">2. Let the mixture rest in the refrigerator for about 20 minutes. (If the dough is moist, you might need a bit more flour to the composition; the dough has to be easy to handle, not too sticky).
+						</p>
+						<p class="direction">3. In a deep pan heat oil enough to cover the balls of dough.
+						Make small balls of dough, a size that would fit in your hands. Make a whole through the center of it with your finger and take it through flour. Enlarge carefully the whole and flatten the ball of dough a little. Roll small balls to put on the top.
+						</p>
+						<p class="direction">4. Fry them in hot oil on both sides until they get color. (approx 5 minutes). You will see when the dumplings are fried they will rise to the top, turn these around to get equal colour on both sides.
+						</p>
+						<p class="direction">5. To assemble the papanasi: put the large ball on a plate, fill the hole with preserve and a sour cream – be generous – then add the small ball on the top. Dust with some icing sugar. Serve immediately.	
+						</p>
+				
+			</article>
+			<article>
+				<div class="boxDirections"> Reviews </div>
+				<p> Did you try it? Tell us what you think! </p>
+				<p><form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
+                                <p>
+                                    <label>Name</label>
+                                    <textarea placeholder="Name" name="Name"></textarea>
+                                </p>
+                                <p>
+                                    <label>E-mail</label>
+                                    <textarea placeholder="E-mail" name="mail"></textarea>
+                                </p>
+                                <p>
+                                    <label>How was it?</label>
+                                    <textarea placeholder="Comments" name="text" id="comment"></textarea>
+                                </p>
+                                <p>
+                                    <input type="submit" value="Submit" name="submit"> 
+                                </p>
+                </p></form> 
+			</article>
+			<article>
+				<div class="boxDirections"> More recipes from Romania </div>
+				<div id="photos">
+					<div class="photo">
+
+						<img src="img/clatite.jpg" width="180" height="170px" class="reteta">
+						<p class="hovering"> Pancakes with homemade filling</p>
+
+					</div>
+					<div class="photo">
+
+						<img src="img/cozonac.png" width="180" height="170px" class="reteta">
+						<p class="hovering"> "Cake" with cocoa and </p>
+
+					</div>
+					<div class="photo">
+
+						<img src="img/placinta.jpg" width="180" height="170px" class="reteta">
+						<p class="hovering"> Pie with sweet <br> cheese </p>
+
+					</div>
+					<div class="photo">
+
+						<img src="img/turta.jpg" width="180" height="170px" class="reteta">
+						<p class="hovering"> Gingerbread </p>
+
+					</div>
+					<div class="photo">
+
+						<img src="img/chec.jpg" width="180" height="170px" class="reteta">
+						<p class="hovering"> Chocolate cake</p>
+
+					</div>
+					<div class="photo">
+
+						<img src="img/mere.jpg" width="180" height="170px" class="reteta">
+						<p class="hovering"> Pie with apples</p>
+
+					</div>
+				</div>
+				<div id="down">
+				</div>
+            </article>         
+        </div>
+		<aside>
+			<ul>
+				<li><a href="">Start</a></li>
+				<li><a href="./SzechuanSauce.html">Szechuan sauce</a></li>
+				<li><a href="./papanasi.html">Papanasi</a></li>
+				<li><a href="">Lasagne</a></li>
+				<li><a href="">Toasty</a></li>
+				<li><a href="">Stroopwaffel</a></li>
+				<li><a href="">Therest</a></li>
+			</ul>
+		</aside>
+	</div>
+</body>
+</html>
