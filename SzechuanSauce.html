@@ -16,14 +16,15 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<img src="img/favicon.png" alt="logo">
-			<span>HTML Cooking</span>
+			<div>
+				<img src="img/favicon.png" alt="logo">
+				<span>HTML Cooking</span>
+			</div>
 		</header>
 		<div id="content">
 			<article>
-				<h1 id='title'>It's all about that Szechuan sauce!</h1>
+				<h1>It's all about that Szechuan sauce!</h1>
 				<div id='introduction'>
-					
 					<p>
 					Rick and Morty is back and, thanks to the teaser premiere that aired back in April, so is an insane amount of enthusiasm for “Szechuan Sauce,” a limited edition nugget sauce that was released to help promote the 1998 Disney film Mulan.
 					<br>
@@ -57,7 +58,14 @@
 				</div>
 			</article>
 			<article>
-
+				<form action="index.php" method="POST">
+	               	
+	               	<input type="text" name="name" placeholder="Name">
+	               	<textarea rows="4" cols="50" placeholder="Comment"></textarea>
+	                <p>Rate this recepie form 1 to 10 using the following slider</p>
+	                <input type="range" name="rating" min="1" max="10" value="10">
+	                <input type="submit" name="submit">
+	            </form>
 			</article>
 		</div>
 		<aside>
