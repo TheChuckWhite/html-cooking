@@ -2,40 +2,63 @@
 @import url('./main.css');
 @import url('https://fonts.googleapis.com/css?family=Nosifer');
 
-
+body{
+	font-family: 'Contrail One', cursive;
+}
 
 #introduction{
+	
+	height: 210px;
+}
+
+#introduction p {
 	float: left;
 	width: 325px;
 }
-article img{
+
+#introduction img{
 	float: right;
 	width: 300px;
 }
+
 article h1{
-	width: 433px;
-	margin: auto;
-	padding-bottom:20px;
+	color: black;
+	text-align: center;
+	margin: 20px 0 40px 0;
+	font-family: 'Nosifer';
 }
-article p{
-	display: block;
+
+article #instructions{
+	clear: both;
 }
 
 article #instructions h2{
-	clear: both;
-	font-size: 20px;
-	font-weight: bold;
-	margin: 15px 0;
-	display: block;
+	margin: 40px 0;
 }
+
+article h2{
+	font-family: 'Contrail One', cursive;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
 article #instructions ul{
 	list-style: circle;
-	padding-bottom: 10px;
+	margin-bottom: 40px;
 }
+
 article #instructions ul li{
 	margin: 0 0 10px 15px;
 }
 
+article #reference{
+	margin: 45px 0 30px 0;
+}
+
+#comments h2{
+		margin: 20px 0 40px 0;
+}
 
 /*Form styling*/
 input[type='text']{
@@ -51,6 +74,7 @@ input[type='text']:focus{
 	background-color: white;
 	border: grey solid 1px;
 }
+
 textarea{
 	background-color: #ffff99;
 	border: black solid 1px;
@@ -68,17 +92,20 @@ textarea:focus{
 input[type='range']{
 	width: 380px;
 	margin: 20px 0;
+	
 }
 
 input[type='submit']{
-	padding: 5px;
+	padding: 10px 20px;
 	display: block;
 	border: black solid 1px;
 	border-radius: 5px;
 	transition: background-color 0.5s;
+	margin-bottom: 40px;
 }
 
 input[type='submit']:hover{
 	background-color: #ffff99;
 	border: grey solid 1px;
+
 }
