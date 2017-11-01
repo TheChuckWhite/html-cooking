@@ -7,29 +7,23 @@ body{
 
 header{
 	width: 665px;
-	height: 100px;
 	background: #F5DEB3;
 	float: right;
     font-family: 'Contrail One', cursive;
 	color: #8B4513;
 	text-align: center;
+	padding: 30px;
 }
 
 header > div{
 	width: 300px;
-	height: 100px;
 	margin: 0 auto;
 }
 
 header > div >  img{
-	height:100px;
-	float: left;
+
 }
 
-header > div > span{
-line-height: 100px;
-font-size: 30px;
-}
 
 div.wrapper{
 	width: 1000px;
