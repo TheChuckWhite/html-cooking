@@ -1,13 +1,8 @@
 @import url('./reset.css');
 @import url('./main.css');
-@import url('https://fonts.googleapis.com/css?family=Nosifer');
 
-body{
-	font-family: 'Contrail One', cursive;
-}
 
 #introduction{
-	
 	height: 210px;
 }
 
@@ -26,7 +21,6 @@ article h1{
 	line-height: 40px;
 	text-align: center;
 	margin: 20px 0 40px 0;
-	font-family: 'Nosifer';
 }
 
 article #instructions{
@@ -38,7 +32,6 @@ article #instructions h2{
 }
 
 article h2{
-	font-family: 'Contrail One', cursive;
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
