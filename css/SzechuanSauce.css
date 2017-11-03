@@ -83,6 +83,7 @@ textarea{
 	padding: 5px;
 	margin-bottom: 30px;
 	transition: background-color 0.5s;
+	max-width: 625px;
 }
 
 textarea:focus{
