@@ -1,9 +1,11 @@
 @import url('./reset.css');
 @import url('./main.css');
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
 
 
 #introduction{
 	height: 210px;
+	margin-bottom: 20px; 
 }
 
 #introduction p {
@@ -15,15 +17,20 @@
 	float: right;
 	width: 300px;
 }
-
+article{
+	background-color: color: #8B4513;
+}
 article h1{
 	color: black;
 	line-height: 40px;
 	text-align: center;
 	margin: 20px 0 40px 0;
+	font-family: 'Nosifer';
 }
 
 article #instructions{
+	border: black solid 1px;
+	padding: 0 20px 20px 20px;
 	clear: both;
 }
 
