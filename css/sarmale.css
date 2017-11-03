@@ -1,4 +1,6 @@
-
+a{
+  text-decoration: none;
+}
 .directions{
   text-align: left;
 	font-size: 20px;
