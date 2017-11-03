@@ -16,9 +16,6 @@ h1{
 	color: #8B4513;
 }
 
-
-
-
 .img_img
 {
 	float: left;
@@ -35,7 +32,7 @@ h1{
 	float: left;
 	margin-left: -20px;
 	width: 665px;
-	height: 80px;
+	height: 50px;
 }
 .img__description {
   position: absolute;
@@ -46,8 +43,8 @@ h1{
   opacity: 0;
   transition: opacity .5s, visibility .5s;
   font-size: 32px;
-  width: 685px;
-  height: 420px;
+  width: 665px;
+  height: 440px;
   margin-left: -20px;
   text-align: center; 
   padding-top: 200px;
@@ -201,6 +198,7 @@ textarea
 	margin-top:3px;
 	font-size:0.9em;
 	color:#3a3a3a;
+	resize: none;
 }
 input
 {
@@ -263,5 +261,6 @@ input
 	float: left;
 	height: 40px;
 	background-color: #F5DEB3;
-	margin-left: -20px;
+	margin-left: -20px; 
+	margin-bottom: -20px; 
 }

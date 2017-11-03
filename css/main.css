@@ -3,13 +3,13 @@
 body{
 	background: url(../img/background.jpg) no-repeat center center fixed;
 	background-size: cover;
+	font-family: 'Contrail One', cursive;
 }
 
 header{
 	width: 665px;
 	background: #F5DEB3;
 	float: right;
-    font-family: 'Contrail One', cursive;
 	color: #8B4513;
 	text-align: center;
 	padding: 30px;
@@ -18,10 +18,6 @@ header{
 header > div{
 	width: 300px;
 	margin: 0 auto;
-}
-
-header > div >  img{
-
 }
 
 
@@ -35,12 +31,11 @@ div.wrapper{
 
 div#content{
 	width: 665px;
-	float: right;
+	float: right; 
 	min-height: 750px;
 }
 
 article{
-	min-height: 100px;
 	background-color: #FFF;
 	margin-top:20px;
 	padding: 20px;
@@ -50,7 +45,6 @@ article{
 
 
 h1{
-    font-family: 'Contrail One', cursive;
 	font-size: 30px;
 	color: #8B4513;
 }
@@ -64,24 +58,24 @@ aside{
 }
 
 aside > ul{
-    font-family: 'Contrail One', cursive;
 	font-size: 25px;
 	color: #8B4513;
 }
 
-aside > ul > a > li{
+aside > ul > li{
 	width:100%;
 	padding:10px;
 }
 
-aside > ul > a{
+aside > ul > li > a{
 	width:100%;
 	height: 100%;
 	text-decoration: none;
 	color: inherit;
+	display: block;
 }
 
-aside > ul > a > li:hover{
+aside > ul > li:hover{
 	background-color: #F5DEB3;
 	color: #8B4513;
 }
